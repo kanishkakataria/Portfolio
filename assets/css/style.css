@@ -26,7 +26,7 @@ body::before {
 @media (max-width: 516px) {
   body::before {
     /* background-attachment: fixed; */
-    background: #040404 url("../img/3.png") top right no-repeat;
+    background: #040404 url("../img/3.jpg") top right no-repeat;
     background-position-x: -1425px;
   }
 }
