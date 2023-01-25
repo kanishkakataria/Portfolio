@@ -30,6 +30,13 @@ body::before {
     background-position-x: -1425px;
   }
 }
+@media (max-width: 100px) {
+  body::before {
+    /* background-attachment: fixed; */
+    background: #040404 url("..pdf/RESUME_OFFCAMPUS.pdf") top right no-repeat;
+    background-position-x: -1425px;
+  }
+}
 
 a {
   color: goldenrod;
