@@ -18,25 +18,19 @@ body::before {
   z-index: -1;
 }
 
-@media (min-width: 100px) {
+@media (min-width: 20px) {
   body::before {
     background-attachment: fixed;
   }
 }
-@media (max-width: 519px) {
+@media (max-width: 500px) {
   body::before {
     /* background-attachment: fixed; */
     background: #040404 url("../img/3.png") top right no-repeat;
     background-position-x: -1425px;
   }
 }
-@media (max-width: 100px) {
-  body::before {
-    /* background-attachment: fixed; */
-    background: #040404 url("..pdf/RESUME_OFFCAMPUS.pdf") top right no-repeat;
-    background-position-x: -1425px;
-  }
-}
+
 
 a {
   color: goldenrod;
@@ -630,6 +624,14 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+
+@media (max-width:20px) {
+  body::before {
+    /* background-attachment: fixed; */
+    background: #040404 url("..pdf/RESUME_OFFCAMPUS.pdf") top right no-repeat;
+    background-position-x: -1425px;
+  }
+}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -637,7 +639,7 @@ section .container {
   margin-bottom: 20px;
   color: #fff;
 }
-
+/*
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
