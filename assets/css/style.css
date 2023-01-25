@@ -23,7 +23,7 @@ body::before {
     background-attachment: fixed;
   }
 }
-@media (max-width: 100px) {
+@media (max-width: 519px) {
   body::before {
     /* background-attachment: fixed; */
     background: #040404 url("../img/3.png") top right no-repeat;
