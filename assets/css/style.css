@@ -625,19 +625,19 @@ section .container {
 # Resume
 --------------------------------------------------------------*/
 
-@media (max-width:20px) {
-  body::before {
-    /* background-attachment: fixed; */
-    background: #040404 url("..pdf/RESUME_OFFCAMPUS.pdf") top right no-repeat;
-    background-position-x: -1425px;
-  }
-}
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #fff;
+}
+@media (max-height :50px) {
+  body::after {
+    /* background-attachment: fixed; */
+    background: #040404 url("..pdf/RESUME_OFFCAMPUS.pdf") top right no-repeat;
+    background-position-x: -1425px;
+  }
 }
 /*
 .resume .resume-item {
